@@ -54,6 +54,7 @@ const Header = props => {
     return (
         <Fragment>
             <div className={classes.switchersContainer}>
+                <h2 style={{color: "red"}}>support@allurecommerce.com</h2>
                 <div className={classes.switchers}>
                     <StoreSwitcher />
                     <CurrencySwitcher />
